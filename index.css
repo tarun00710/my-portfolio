@@ -7,10 +7,9 @@
     --second-color:#5F89FE;
     --dark:#4451FF;
 }
-
 a{
     text-decoration: none;
-    padding: 0.4rem 1rem;
+    padding: 1rem 1rem;
     color: white;
 }
 .link_active{
@@ -63,6 +62,7 @@ li{
     max-width:350px;
     display: block;
     margin: auto;
+    width: 100%;
 }
 .hero .hero_heading{
     padding-top: 1rem;
@@ -92,6 +92,7 @@ li{
 .list-items{
     list-style:none;
     display: inline;
+    margin:1rem;
 }
 
 .footer{
