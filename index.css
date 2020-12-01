@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap');
+
+
+:root{
+    --primary-color:#796CFF;
+    --dark-gray:#6B7280;
+    --second-color:#5F89FE;
+    --dark:#4451FF;
+}
+
+a{
+    text-decoration: none;
+    padding: 0.4rem 1rem;
+    color: white;
+}
+.link_active{
+    font-weight: 600;
+}
+.links{
+    background-color:var(--second-color);
+    border-radius: 5px;
+    margin-right: 2rem;
+}
+.links:hover{
+    background-color:var(--dark);
+}
+.list-items:hover{
+   font-weight: 600;
+}
+
+body{
+    margin: 0px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.nav-first-row{
+    font-weight:bold;
+    margin:10px;
+}
+.nav-container{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    background-image: linear-gradient(19deg, #21D4FD 0%, #B721FF 100%);
+    border-bottom-left-radius: 1rem;
+}
+.nav-items{
+    display: flex;
+    justify-content:flex-end;
+    font-size: 1.1rem;
+}
+ul{
+    padding-inline-start:0;
+    margin-block-end: 0em;
+}
+li{
+    list-style: none;
+}
+.hero{
+    padding:2rem;
+}
+.hero .hero_image{
+    max-width:350px;
+    display: block;
+    margin: auto;
+}
+.hero .hero_heading{
+    padding-top: 1rem;
+    color:var(--dark-gray);
+    text-align: center;  
+}
+.hero .hero_heading .heading_inverted{
+    color:#41AEFE;
+}
+.section{
+    text-align: center;
+    padding:2rem;
+    color:var(--dark-gray);
+    
+}
+.section h1{
+    color:#374151;
+    font-size: 2rem;
+}
+.section p{
+    padding:1.2rem;
+}
+
+.ow{
+    background-color:#F3F4F6;
+}
+.list-items{
+    list-style:none;
+    display: inline;
+}
+
+.footer{
+    background-color: var(--second-color);
+    padding:2rem 1rem;
+    text-align:center;
+    border-top-right-radius: 2rem;
+    color: white;
+}
+hr{
+    width: 30%;
+}
