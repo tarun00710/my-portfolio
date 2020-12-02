@@ -92,6 +92,7 @@ li{
 }
 .section p{
     padding:1.2rem;
+    text-align: center;
 }
 
 .ow{
@@ -100,7 +101,7 @@ li{
 .list-items{
     list-style:none;
     display: inline;
-    margin:1rem;
+    margin:-12px;
 }
 
 .footer{
@@ -113,3 +114,29 @@ li{
 hr{
     width: 30%;
 }
+.head_animate{
+    animation:text 2s 1;
+}
+@keyframes text{
+    0%{
+        color: white;
+        margin-bottom:-20px;
+    }
+    60%{
+        letter-spacing: 1px;
+        margin-bottom: -20px;
+    } 
+}
+.technology{
+    display: flex;
+    flex-direction: column;
+    padding:1.5rem;
+}
+.techrow{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    animation:text 2s 1;
+}
+
